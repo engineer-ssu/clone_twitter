@@ -1,7 +1,9 @@
-import React from "react";
+import Router from "./Router";
 
 const App = () => {
-    return (<div className='container'>컨테이너</div>);
+    return (
+        <Router />
+    );
 }
 
 export default App;
